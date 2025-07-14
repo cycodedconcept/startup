@@ -103,7 +103,7 @@ nav ul li img {
     left: 200px;
 }
 
-.content-text h1, .content-text p, .testimonial h2, .test-item {
+.content-text h1, .content-text p, .testimonial h2, .test-item, .call-top h2 {
     color: #fff;
 }
 
@@ -141,12 +141,27 @@ nav ul li img {
     margin: 30px;
 }
 
-.testimonial {
+.testimonial, .call-to-action {
     background: #1E0E62;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+}
+
+.call-top {
+    text-align: center;
+}
+
+.call-top button {
+    margin: 30px 0 50px;
+}
+.call-bottom img {
+    width: 100%;
+}
+
+.call-bottom {
+    margin-bottom: -45px;
 }
 
 small {

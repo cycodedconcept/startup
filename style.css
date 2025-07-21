@@ -33,7 +33,7 @@ nav ul li img {
     margin-top: 5px;
 }
 
-.u-btn, .s-btn {
+.u-btn, .s-btn, .f-btn {
     border: 0;
     box-shadow: none;
     outline: none;
@@ -58,6 +58,10 @@ nav ul li img {
 .s-btn:hover {
     background: #25DAC5;
     color: #fff;
+}
+
+.f-btn {
+    background: #482BE7;
 }
 
 .logo-img, .call-to-action {
@@ -141,12 +145,17 @@ nav ul li img {
     margin: 30px;
 }
 
-.testimonial, .call-to-action {
+.testimonial, .call-to-action, .call-to-action2 {
     background: #1E0E62;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+}
+
+.call-to-action2 {
+    background: #fff;
+    padding: 0;
 }
 
 .call-top {
@@ -166,7 +175,7 @@ nav ul li img {
 
 small {
     display: block;
-}
+} 
 
 .test-item {
     display: flex;
@@ -232,3 +241,199 @@ small {
 .card-bottom .s-btn {
     color: #1E0E62;
 }
+
+.footer-top, .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text-left {
+    display: flex;
+    gap: 250px;
+}
+
+.footer-text p, .footer-social-section p, .footer-bottom p {
+    color: #1E0E62;
+    font-weight: 600;
+}
+
+.footer-bottom p {
+    text-transform: uppercase;
+}
+
+.footer-text small {
+    color: #1E0E62;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-bottom small {
+    color: #15143966;
+}
+
+.socials img {
+    width: 12%;
+    margin-right: 20px;
+}
+
+footer {
+    padding: 40px 0;
+    margin: 0 60px;
+}
+
+hr {
+    border: 1px solid #EBEAED;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+}
+
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    nav ul li {
+        margin-bottom: 20px;
+    }
+
+    nav ul li img {
+        width: 5%;
+    }
+
+    .call-to-action2 {
+        align-items: start;
+        justify-content: start;
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        margin: 20px;
+        color: #1E0E62;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .content {
+        height: 425px;
+    }
+
+    .overall {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    br {
+        display: none;
+    }
+
+    .hero p {
+        font-size: 12px;
+        text-align: left;
+        margin: 25px 0 13px;
+    }
+
+    .hero {
+        margin: 20px;
+    }
+
+    .u-btn, .h-btn, .f-btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .content-text {
+        bottom: 122px;
+        left: 7px;
+    }
+
+    .feature-bottom {
+        flex-direction: column;
+        margin: 0 12px 0;
+    }
+
+    .bottom-center img {
+        width: 100%;
+    }
+
+    .feature-top {
+        text-align: left;
+        margin: 20px;
+    }
+
+    .call-top {
+        margin: 0 20px;
+    }
+
+    .call-bottom {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .call-bottom img {
+        margin: 0 20px;
+        width: 89%;
+    }
+
+    .testimonial-bottom, .ecom-card, .footer-top, .footer-text-left, .footer-bottom {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .footer-text-left {
+        gap: 30px;
+    }
+
+    .testimonial h2 {
+        margin: 0 20px 20px;
+    }
+
+    .tes-mobile {
+        margin-top: 20px;
+    }
+
+    .ecom-bottom {
+        margin: 30px 2px;
+    }
+
+    footer {
+        margin: 20px;
+    }
+
+    .socials img {
+        width: 20px;
+    }
+
+    .footer-social-section {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    .bottom-center img {
+        display: none;
+    }
+}
+
+
